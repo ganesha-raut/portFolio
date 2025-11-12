@@ -15,7 +15,7 @@ conn = sqlite3.connect('portfolio.db')
 c = conn.cursor()
 
 load_dotenv()
-EMAIL_ADDRESS ="email_address
+EMAIL_ADDRESS ="email_address"
 EMAIL_PASSWORD ="password"
 
 print(repr(EMAIL_ADDRESS))   
@@ -835,5 +835,6 @@ if __name__ == '__main__':
     # debug_mode = os.environ.get('FLASK_DEBUG', 'false').lower() == 'true'
     # app.run(debug=debug_mode)
     app.run(debug=True)
+
 
 
